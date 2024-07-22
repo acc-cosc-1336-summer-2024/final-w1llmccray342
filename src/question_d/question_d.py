@@ -27,12 +27,8 @@ def create_multiplication_table():
     return my_list
 
 def display_multiplication_table(list):
-    i = 0 
-    for nums in list:
-        while i <= 9:
-            print(nums[i])
-            i += 1
-
+  for nums in list:
+    print(nums[0], nums[1], nums[2], nums[3], nums[4], nums[5], nums[6], nums[7], nums[8], nums[9])
 
 
     
