@@ -31,7 +31,7 @@ class Stock:
             my_stock_symbol = stock.return_symbol
             my_stock_name = stock.return_name
 
-            my_stocks.update[my_stock_symbol][my_stock_name]
+            my_stocks.update({my_stock_symbol: my_stock_name})
         
         for key, value in my_stocks.items():
             print (key, value)
