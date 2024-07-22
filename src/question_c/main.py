@@ -19,7 +19,7 @@ def handle_menu_options():
             my_lowest_number = grab_lowest_nums(my_data)
             my_highest_number = grab_highest_nums(my_data)
             my_total_number = grab_total_nums(my_data)
-            my_avg_number = grab_avg_nums(my_data)
+            my_avg_number = grab_avg_nums(my_total_number, my_data)
 
             print(f"The lowest number is... {my_lowest_number}")
             print(f"The highest number is... {my_highest_number}")
