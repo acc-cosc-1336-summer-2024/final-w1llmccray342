@@ -16,8 +16,6 @@ def grab_lowest_nums(list):
     list.sort()
     return list[0]
 
-
-
 # Create a function that grabs the HIGHEST number in a list
 def grab_highest_nums(list):
     list.sort()
