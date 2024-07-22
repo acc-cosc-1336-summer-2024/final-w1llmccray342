@@ -1,4 +1,4 @@
-from question_a.stocks_a import Stock
+from stocks_a import Stock
 # Create a basic stock.
 goog_stock = Stock("GOOG", "Google")
 
