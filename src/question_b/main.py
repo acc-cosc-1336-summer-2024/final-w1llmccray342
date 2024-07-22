@@ -18,6 +18,9 @@ def handle_menu_options():
 
         if option == 1:
             my_stock.stock_purchase_history()
+        
+        elif option == 2:
+            print("Goodbye!")
     
 
 def main():
