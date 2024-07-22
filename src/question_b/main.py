@@ -1,7 +1,7 @@
 from question_b import Stock
 
 # Create an instance of the Stock class to use later
-my_stock = Stock()
+my_stock = Stock("MYSTK", "MyStock")
 
 def main_menu():
     print("1. Display stock purchase history")
