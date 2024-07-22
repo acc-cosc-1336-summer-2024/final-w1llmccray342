@@ -15,8 +15,8 @@ def handle_menu_options():
         try:
             option = int(input("Please select what you would like to do\n"))
 
-        except:
-            ValueError("Please enter an INTEGER option.")
+        except ValueError:
+            print ("Please enter an INTEGER option.")
 
             if option == 1:
                 my_data = get_user_data()
