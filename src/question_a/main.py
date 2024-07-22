@@ -1,7 +1,6 @@
-from src.question_a import question_a
-
+from src.question_a.question_a import Stock
 # Create a basic stock.
-goog_stock = question_a.Stock("GOOG", "Google")
+goog_stock = Stock("GOOG", "Google")
 
 # Print type of GOOG_Stock to ensure it is of "STOCK" type class
 print(goog_stock)
