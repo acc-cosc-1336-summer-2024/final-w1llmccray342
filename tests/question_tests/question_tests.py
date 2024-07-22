@@ -3,7 +3,7 @@ import unittest
 
 #follow this example to add questions b, c, and d for testing including their functions
 
-from question_c.question_c import grab_lowest_nums, grab_highest_nums, grab_avg_nums, grab_total_nums
+from src.question_c.question_c import grab_lowest_nums, grab_highest_nums, grab_avg_nums, grab_total_nums
 
 class Test_Config(unittest.TestCase):
 
