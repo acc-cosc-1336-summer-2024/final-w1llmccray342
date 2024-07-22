@@ -9,8 +9,11 @@ def main_menu():
 def handle_menu_options():
     main_menu()
 
+    # Initialize options
+    option = 0
+
     while option != 2:
-        option = input("Please select what you would like to do\n")
+        option = int(input("Please select what you would like to do\n"))
 
         if option == 1:
             Stock.stock_purchase_history()
