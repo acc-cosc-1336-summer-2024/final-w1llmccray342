@@ -28,8 +28,8 @@ class Stock:
         my_stocks = {}
         
         for stock in temp_stocks:
-            my_stock_symbol = stock.return_symbol
-            my_stock_name = stock.return_name
+            my_stock_symbol = stock.return_symbol()
+            my_stock_name = stock.return_name()
 
             my_stocks.update({my_stock_symbol: my_stock_name})
         
