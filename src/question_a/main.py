@@ -1,4 +1,4 @@
-from src.question_a import question_a
+from question_a import question_a
 
 # Create a basic stock.
 goog_stock = question_a.Stock("GOOG", "Google")
