@@ -1,6 +1,7 @@
 from question_b import Stock
 
-still_running = True  
+# Create an instance of the Stock class to use later
+my_stock = Stock()
 
 def main_menu():
     print("1. Display stock purchase history")
@@ -16,7 +17,7 @@ def handle_menu_options():
         option = int(input("Please select what you would like to do\n"))
 
         if option == 1:
-            Stock.stock_purchase_history()
+            my_stock.stock_purchase_history()
     
 
 def main():
