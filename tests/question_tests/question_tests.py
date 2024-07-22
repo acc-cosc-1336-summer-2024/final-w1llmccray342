@@ -15,4 +15,12 @@ class Test_Config(unittest.TestCase):
         nums_to_test = [1, 2, 3, 4, 5]
         self.assertEqual(5, grab_highest_nums(nums_to_test))
 
+    def test_question_c_grab_total_nums(self):
+        nums_to_test = [1, 2, 3, 4, 5]
+        self.assertEqual(15, grab_total_nums(nums_to_test))
+
+    def test_question_c_grab_avg_nums(self):
+        nums_to_test = [1, 2, 3, 4, 5]
+        total_nums = grab_total_nums(nums_to_test)
+        self.assertEqual(3, grab_avg_nums(total_nums, nums_to_test))
 
