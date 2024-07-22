@@ -16,22 +16,23 @@ def handle_menu_options():
             option = int(input("Please select what you would like to do\n"))
 
         except ValueError:
-            print ("Please enter an INTEGER option.")
+            print ("ERROR: Please enter an INTEGER option.")
+            continue
 
-            if option == 1:
-                my_data = get_user_data()
-                my_lowest_number = grab_lowest_nums(my_data)
-                my_highest_number = grab_highest_nums(my_data)
-                my_total_number = grab_total_nums(my_data)
-                my_avg_number = grab_avg_nums(my_total_number, my_data)
+        if option == 1:
+            my_data = get_user_data()
+            my_lowest_number = grab_lowest_nums(my_data)
+            my_highest_number = grab_highest_nums(my_data)
+            my_total_number = grab_total_nums(my_data)
+            my_avg_number = grab_avg_nums(my_total_number, my_data)
 
-                print(f"The lowest number is... {my_lowest_number}")
-                print(f"The highest number is... {my_highest_number}")
-                print(f"The total is... {my_total_number}")
-                print(f"The average is... {my_avg_number}")
-            
-            elif option == 2:
-                print("Goodbye!")
+            print(f"The lowest number is... {my_lowest_number}")
+            print(f"The highest number is... {my_highest_number}")
+            print(f"The total is... {my_total_number}")
+            print(f"The average is... {my_avg_number}")
+        
+        elif option == 2:
+            print("Goodbye!")
     
 
 def main():
