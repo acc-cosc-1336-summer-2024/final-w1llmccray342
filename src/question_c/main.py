@@ -1,4 +1,4 @@
-from question_c import question_c
+from question_c import get_user_data, grab_lowest_nums, grab_highest_nums, grab_total_nums, grab_avg_nums
 
 
 def main_menu():
@@ -15,11 +15,11 @@ def handle_menu_options():
         option = int(input("Please select what you would like to do\n"))
 
         if option == 1:
-            my_data = question_c.get_user_data()
-            my_lowest_number = question_c.grab_lowest_nums(my_data)
-            my_highest_number = question_c.grab_highest_nums(my_data)
-            my_total_number = question_c.grab_total_nums(my_data)
-            my_avg_number = question_c.grab_avg_nums(my_data)
+            my_data = get_user_data()
+            my_lowest_number = grab_lowest_nums(my_data)
+            my_highest_number = grab_highest_nums(my_data)
+            my_total_number = grab_total_nums(my_data)
+            my_avg_number = grab_avg_nums(my_data)
 
             print(f"The lowest number is... {my_lowest_number}")
             print(f"The highest number is... {my_highest_number}")
