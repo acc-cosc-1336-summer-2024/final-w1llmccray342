@@ -35,4 +35,4 @@ class Stock:
 
         print("Symbol | Company Name")
         for key, value in my_stocks.items():
-            print (key, value)
+            print (key, "\t", value)
