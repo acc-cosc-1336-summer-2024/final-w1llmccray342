@@ -34,4 +34,4 @@ class Stock:
             my_stocks.update({my_stock_symbol: my_stock_name})
         
         for key, value in my_stocks.items():
-            print (key, value)
+            print (key, "\n", value)
