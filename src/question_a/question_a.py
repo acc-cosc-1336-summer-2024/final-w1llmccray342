@@ -6,4 +6,4 @@ class Stock:
         self.__company_name = company_name
 
     def __str__(self):
-        return f"Stock Report \n {self.__symbol} \n{self.__company_name} "
+        return f"Stock Report \n{self.__symbol} \n{self.__company_name} "
