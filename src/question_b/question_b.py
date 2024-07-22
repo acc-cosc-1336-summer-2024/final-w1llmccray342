@@ -32,6 +32,7 @@ class Stock:
             my_stock_name = stock.return_name()
 
             my_stocks.update({my_stock_symbol: my_stock_name})
-        
+
+        print("Symbol | Company Name")
         for key, value in my_stocks.items():
-            print (key, "\n", value)
+            print (key, value)
